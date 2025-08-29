@@ -1,0 +1,168 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="24.7.17">
+  <diagram id="e0dnHSrSPafrYgYc5VEH" name="第 1 页">
+    <mxGraphModel dx="1701" dy="906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WljYN-Nm1oO679w_VuhY-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="WljYN-Nm1oO679w_VuhY-1" target="WljYN-Nm1oO679w_VuhY-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-1" value="提取图像描述" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="310" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="WljYN-Nm1oO679w_VuhY-2" target="WljYN-Nm1oO679w_VuhY-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-2" value="构建知识图谱路径" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="310" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="WljYN-Nm1oO679w_VuhY-3" target="WljYN-Nm1oO679w_VuhY-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-3" value="Agent: RAG检索" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="310" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="WljYN-Nm1oO679w_VuhY-4" target="WljYN-Nm1oO679w_VuhY-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-4" value="外部知识库" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="190" y="303" width="70" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="WljYN-Nm1oO679w_VuhY-5" target="WljYN-Nm1oO679w_VuhY-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-5" value="推理思维链生成" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="310" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-39" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="WljYN-Nm1oO679w_VuhY-6" target="WljYN-Nm1oO679w_VuhY-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-6" value="额外信息提取" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="310" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="WljYN-Nm1oO679w_VuhY-7" target="WljYN-Nm1oO679w_VuhY-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-27" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="WljYN-Nm1oO679w_VuhY-7" target="WljYN-Nm1oO679w_VuhY-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="60" />
+              <mxPoint x="140" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-7" value="患者信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="310" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-17" value="肠段为&lt;font color=&quot;#ff0000&quot;&gt;乙状直肠&lt;/font&gt;，有病变，见一约0.4*0.3*0.2cm大小&lt;font color=&quot;#ff0000&quot;&gt;广基息肉&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="160" width="340" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-19" value="&lt;font color=&quot;#ff0000&quot;&gt;乙状直肠-&amp;gt;凸起-&amp;gt;息肉-&amp;gt;0.4*0.3*0.2cm大小广基息肉&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="250" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-22" value="图像显示&lt;font color=&quot;#ff0000&quot;&gt;乙状直肠&lt;/font&gt;部位的黏膜，其表面见一处&lt;font color=&quot;#ff0000&quot;&gt;轻度隆起&lt;/font&gt;病变，&lt;br&gt;位置在&lt;font color=&quot;#ff0000&quot;&gt;图像左上方&lt;/font&gt;。该病变呈扁平形态，大小约&lt;font color=&quot;#ff0000&quot;&gt;0.4×0.3×0.2 cm&lt;/font&gt;&lt;br&gt;符合广基息肉特征：隆起高度较低，基底较宽，表面颜色偏粉红，&lt;br&gt;与周围黏膜差异不明显。结合位置、形态及色泽推测该病变为&lt;font color=&quot;#ff0000&quot;&gt;广基息肉&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="430" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-25" value="降结肠黏膜光滑..." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="550" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-45" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="WljYN-Nm1oO679w_VuhY-30" target="WljYN-Nm1oO679w_VuhY-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-30" value="思考过程提取" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="310" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-46" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="WljYN-Nm1oO679w_VuhY-31" target="WljYN-Nm1oO679w_VuhY-43" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-31" value="构造输出格式" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="310" y="729" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-40" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;&lt;i&gt;数据预处理&lt;/i&gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;br&gt;模型采用GPT 5" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="80" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-41" value="&lt;font style=&quot;font-size: 14px&quot;&gt;监督微调（SFT）&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="705" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-42" value="&lt;font style=&quot;font-size: 14px&quot;&gt;强化学习（RL）&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="892" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-47" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="WljYN-Nm1oO679w_VuhY-43" target="WljYN-Nm1oO679w_VuhY-44" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-43" value="指令增强" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="310" y="827" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-44" value="奖励设置" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="310" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-48" value="从GPT 5中提取思考过程，即，模型通过以上信息如何能够得到内镜所见" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="650" width="400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-51" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&amp;lt;think&amp;gt;&lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;思考过程&lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&amp;lt;/think&amp;gt;&amp;lt;caption&amp;gt;&lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;内镜所见内容&lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&amp;lt;/caption&amp;gt;&amp;lt;diagnosis&amp;gt;&lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;内镜诊断内容&lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&amp;lt;/diagnosis&amp;gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="739" width="530" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-52" value="格式奖励和语义奖励" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="940" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-53" value="让模型评估初步检测的质量，目的是反思" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="850" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-54" value="&lt;font&gt;&lt;span style=&quot;font-weight: bold ; font-style: italic ; font-size: 14px&quot;&gt;阅片模型训练&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;模型采用Lingshu&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="125" y="615" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-57" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="480" y="5" width="372" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-55" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="WljYN-Nm1oO679w_VuhY-57" vertex="1">
+          <mxGeometry width="372" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-56" value="&lt;p style=&quot;line-height: 140%&quot;&gt;患者基础信息：年龄，体重等&lt;br&gt;内镜报告：内镜所见+内镜诊断&lt;br&gt;图片（内镜、CT、超声）：肠段+病灶+定位（大致定位/精准定位）&lt;br&gt;临床诊断：各种临床检测指标&lt;br&gt;CD/ITB：最终诊断分类&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WljYN-Nm1oO679w_VuhY-57" vertex="1">
+          <mxGeometry width="370" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-58" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="WljYN-Nm1oO679w_VuhY-55" target="WljYN-Nm1oO679w_VuhY-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-64" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="WljYN-Nm1oO679w_VuhY-60" target="WljYN-Nm1oO679w_VuhY-63" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-60" value="患者信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="900" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-62" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="WljYN-Nm1oO679w_VuhY-56" target="WljYN-Nm1oO679w_VuhY-60" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-67" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="WljYN-Nm1oO679w_VuhY-63" target="WljYN-Nm1oO679w_VuhY-65" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-63" value="整理临床诊断信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="900" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-72" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="WljYN-Nm1oO679w_VuhY-65" target="WljYN-Nm1oO679w_VuhY-70" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-65" value="RAG检索" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="900" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-66" value="&lt;font&gt;&lt;b style=&quot;font-size: 14px ; font-style: italic&quot;&gt;诊断模型训练&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;模型采用Qwen 3&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="1069" y="60" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-68" value="引入专家经验" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="250" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-69" value="整理成一段简洁的话" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="160" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-70" value="指令增强" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="900" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-71" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;line-height: 14.4px&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;广基息肉&lt;/font&gt;通常较扁平，隆起高度不超过2.5 mm，但覆盖面积较大，&lt;span&gt;大多数广基息肉颜色偏粉红或淡红，与周围正常黏膜差别不大...&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="450" y="324" width="365" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WljYN-Nm1oO679w_VuhY-73" value="临床诊断信息+内镜所见+专家经验=CD/ITB" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="350" width="240" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
